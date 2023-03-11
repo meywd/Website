@@ -7,15 +7,14 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div> */}
-      <h1 className="comingsoon">coming soon...</h1>
+      <div>
+        <div className="circle">
+          <iframe src="\badge.html"></iframe>
+        </div>
+      </div>
+      <span className="comingsoon">
+        <b>coming soon...</b>
+      </span>
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

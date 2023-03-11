@@ -11,8 +11,8 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.logo {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -92,6 +92,20 @@
 }
 
 .comingsoon {
-  font-size: 8em;
+  font-size: 9vw;
   text-shadow: 2px 2px 5px #000;
+}
+.circle {
+  height: 266.5px;
+  width: 280px;
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;
+  border-radius: 5%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+iframe {
+  overflow: hidden;
+  display: block;
+  height: 266.5px;
 }
