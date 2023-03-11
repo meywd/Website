@@ -40,3 +40,58 @@
 .read-the-docs {
   color: #888;
 }
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-19 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-19.jpg");
+}
+
+.background-3 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-3.jpg");
+}
+
+.background-30 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-30.jpg");
+}
+
+.background-49 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-49.jpg");
+}
+
+.background-59 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-59.jpg");
+}
+
+.background-60 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-60.jpg");
+}
+
+.background-61 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-61.jpg");
+}
+
+.background-63 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-63.jpg");
+}
+
+.background-64 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-64.jpg");
+}
+
+.background-96 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-96.jpg");
+}
+
+.background-98 {
+  background-image: url("https://526f3aa295ab4d51.blob.core.windows.net/images/Background 1440p-98.jpg");
+}
+
+.comingsoon {
+  font-size: 8em;
+  text-shadow: 2px 2px 5px #000;
+}
