@@ -1,9 +1,18 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { ApplicationInsights } from "@microsoft/applicationinsights-web";
 
 function App() {
   const [count, setCount] = useState(0);
+  const appInsights = new ApplicationInsights({
+    config: {
+      connectionString:
+        "InstrumentationKey=327b2fa2-1a30-4108-b126-7c103bec2772;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/",
+    },
+  });
+  appInsights.loadAppInsights();
+  appInsights.trackPageView();
 
   return (
     <div className="App">
